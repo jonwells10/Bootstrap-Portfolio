@@ -18,6 +18,13 @@ body {
     margin: 0 auto;
     clear: both;
   }
+
+  .form-group {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
   
   h1,
   h2,
