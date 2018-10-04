@@ -1,0 +1,60 @@
+header{
+    margin-bottom: 10px;
+    max-width: 20%;
+    margin: 0 auto;
+}
+
+body{
+    background: url('../images/background.jpg') no-repeat center 135px;  
+    background-color: slategray;
+    color: rgb(251, 255, 0);
+    font-style: bold; 
+    position: relative;
+    width: 100%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    height: 270px;
+}
+
+.btn-primary,.reset{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    left:800px;
+    top: 25px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: bisque;
+}
+
+.container{
+    border-width: 10px;
+	margin-top: 20px;
+	text-align: center;
+	height: 100%;
+	width: 300px;
+}
+
+h2, h3 {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.thisChoice, #currentQuestion, #correctedAnswer, #incorrectAnswers, #message, #timeleft, #finalMessage{
+    background-color: rgba(255, 2, 2, 0.660);
+}
+
+#correctAnswers {
+    background-color: limegreen;
+}
+#unanswered {
+    background-color: black;
+}
+
+.thisChoice:hover{
+	background-color: #00ffff;
+	color: rgb(183, 0, 255);
+	padding: 10px;
+}
+
